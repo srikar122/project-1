@@ -1,0 +1,9 @@
+.property-type-label{
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    color: black;
+    background-color: #7ce4cd;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+}

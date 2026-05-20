@@ -1,0 +1,29 @@
+.footer{
+    background-color: #262637;
+    color: white;
+    text-align: center;
+    padding: 0.625rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+
+}
+
+.message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 1rem;
+    margin-bottom: .5rem;
+    gap: .5rem;
+}
+
+.closed{
+    color: red;
+}
+
+.open{
+    color: green;
+}

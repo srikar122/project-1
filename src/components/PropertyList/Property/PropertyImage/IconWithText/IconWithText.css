@@ -1,0 +1,12 @@
+.iconWithText{
+    position: absolute;
+    transform: rotate(-45deg);
+    background-color: red;
+    color: white;
+    top: 1rem;
+    left: -1.5625rem;
+    font-size: 0.875rem;
+    font-weight: bold;
+    padding: 0.3125rem 1.25rem;
+
+}

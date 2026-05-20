@@ -1,11 +1,21 @@
-import { useState } from 'react'
+import './App.css'
+import Header from './components/Header/Header'
+import Title from './components/Title/Title'
+import Footer from './components/Footer/Footer'
+import properties from './data/properties'
+import PropertyList from './components/PropertyList/PropertyList'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <></>
+    <div className='app'>
+      <Header></Header>
+      <main>
+        <Title></Title>
+        <PropertyList properties={properties}></PropertyList>
+      </main>
+      <Footer></Footer>
+    </div>
   )
 }
 
